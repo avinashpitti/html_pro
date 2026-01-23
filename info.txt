@@ -1,0 +1,26 @@
+why should we use html?
+we should use html because it is the foundation of the web.
+without html, webpages literally can't exist.
+browsers can't understand plain text on their own
+By tags they can understand it is a heading, it is a paragraph etc.
+html gives meaning + structure
+
+
+what is hypertext?
+The text that contains links to other text/resources.
+
+what is markup language?
+A way to mark content using tags to describe its meaning
+markup describes <h1> it is a heading
+markup describes <p> it is a paragraph
+html just describes, it doesn't have any logic like backend languages
+that's why we call it as a markup language
+
+
+why html is called a markup language?
+html just describes, it doesn't have any logic,doesn't calculate like 
+backend languages
+that's why we call it as a markup language
+
+
+
