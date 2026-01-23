@@ -23,4 +23,24 @@ backend languages
 that's why we call it as a markup language
 
 
+forms in html?
+forms take data from the user in the form of input
+Backend receives data in the form : name =value
+The name attribute is the key sent to the backend
+ex:
+<input type="text" name="email" value="avinash@gmail.com">
+Backend receives
+email=avinash@gmail.com
+
+ex:
+<select name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+</select>
+when user selects female,backend receives
+gender='female'
+
+
+
+
 
