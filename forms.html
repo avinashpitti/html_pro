@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <form action="">
+
+        <label for="email">Email : </label>
+        <input type="text" id="email" name="email" placeholder="avinash@gmail.com"> <br><br>
+
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password"> <br><br>
+
+        <label for="age">Age :</label>
+        <input type="number" id="age" name="age"> <br><br>
+
+        <label for="gender">Gender :</label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Non binary">Non binary</option>
+        </select> <br><br>
+
+        <label for="skills">Skills</label>
+        <select name="skills" id="skills" multiple>
+            <option value="html">Html</option>
+            <option value="css">Css</option>
+            <option value="js">Js</option>
+        </select> <br><br>
+        <!--use ctr+click to select more than one-->
+
+        <label for="favorite">Favorite_language</label>
+        <input type="radio" id="python" name="f_lang" value="python">python
+        <input type="radio" id="java" name="f_lang" value="java">java
+        <input type="radio" id="javascript" name="f_lang" value="javascript">javascript <br><br>
+
+
+        <label for="robot">Check if you are not a robot</label>
+        <input type="checkbox" id="robot" name="robot"> <br> <br>
+
+        <label for="color">Choose a color :</label>
+        <input type="color" name="color"> <br><br>
+
+        <label for="date">Date</label>
+        <input type="datetime-local" id="date" name="date"> <br><br>
+
+        <label for="url">Url</label>
+        <input type="url" id="url" name="url" required><br><br>
+
+        <label for="file">File :</label>
+        <input type="file" id="file" name="url"><br><br>
+
+        <label for="range">Range :</label>
+        <input type="range" id="range" name="range"> <br><br>
+
+        <textarea name="message" id="" rows="5" cols="50"></textarea> <br><br>
+
+        <input type="submit">
+
+
+
+    </form>
+</body>
+
+</html>
