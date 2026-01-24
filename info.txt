@@ -22,6 +22,19 @@ html just describes, it doesn't have any logic,doesn't calculate like
 backend languages
 that's why we call it as a markup language
 
+<ol> attributes:
+type="A" or "a" or "1" or "i(roman)" etc
+start="3"
+reversed gives numbers or characters from reverse d,c,b,a
+value (on <li> not ol)
+<ol>
+    <li>HTML</li>
+    <li value="5">CSS</li>
+    <li>JavaScript</li>
+</ol> # output 1.html 5.css 6.JavaScript
+value belongs to <li>, not <ol>
+
+
 
 forms in html?
 forms take data from the user in the form of input
