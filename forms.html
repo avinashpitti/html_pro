@@ -8,7 +8,9 @@
 </head>
 
 <body>
-    <form action="">
+    <form action="/register" method="post">
+
+        <input type="text" pattern="[a-zA-Z]+">
 
         <label for="email">Email : </label>
         <input type="text" id="email" name="email" placeholder="avinash@gmail.com"> <br><br>
@@ -20,6 +22,7 @@
         <input type="number" id="age" name="age"> <br><br>
 
         <label for="gender">Gender :</label>
+        <!--size="" controls how many options are visible-->
         <select name="gender" id="gender">
             <option value="Male">Male</option>
             <option value="Female">Female</option>
