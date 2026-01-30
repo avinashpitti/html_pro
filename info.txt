@@ -22,6 +22,9 @@ html just describes, it doesn't have any logic,doesn't calculate like
 backend languages
 that's why we call it as a markup language
 
+Html favicon :
+A favicon is a small image displayed next to the page title in the browser tab.
+
 <ol> attributes:
 type="A" or "a" or "1" or "i(roman)" etc
 start="3"
