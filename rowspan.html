@@ -1,34 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HTML Practice</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rowspan</title>
+    <style>
+        table{border-collapse: collapse;}
+        th,td{
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <table border="1" cellpadding="10" cellspacing="0">
+    <table border="1px">
         <tr>
-            <td rowspan="4" style="text-align: center; font-weight: bold; font-size: 18px; letter-spacing: 2px;">
-                s<br>t<br>u<br>d<br>e<br>n<br>t<br>s<br><br>
-                m<br>a<br>r<br>k<br>s<br><br>
-                t<br>a<br>b<br>l<br>e
-            </td>
-            <th>S.NO</th>
-            <th>Name</th>
-            <th>Marks</th>
+            <td rowspan="4" style="font-weight: bold;">s<br>t<br>u<br>d<br>e<br>n<br>t<br><br>m<br>a<br>r<br>k<br>s</td>
+            <th>s.no</th>
+            <th>name</th>
+            <th>marks</th>
         </tr>
         <tr>
-            <td align="center">1</td>
-            <td align="center">Avinash</td>
-            <td align="center">83</td>
+            <td>1</td>
+            <td>Avinash</td>
+            <td>65</td>
         </tr>
         <tr>
-            <td align="center">2</td>
-            <td align="center">Ramesh</td>
-            <td align="center">77</td>
+            <td>2</td>
+            <td>gowtham</td>
+            <td>82</td>
         </tr>
         <tr>
-            <td align="center">3</td>
-            <td align="center">Ajay</td>
-            <td align="center">69</td>
+            <td>3</td>
+            <td>priya</td>
+            <td>84</td>
         </tr>
     </table>
 </body>
